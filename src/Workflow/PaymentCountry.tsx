@@ -1,5 +1,4 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
-import React from "react";
 import ReactCountryFlag from "react-country-flag";
 import { Handle, NodeProps, Position } from "reactflow";
 import CustomHandle from "./CustomHandle";

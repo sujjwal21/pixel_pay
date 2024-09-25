@@ -1,5 +1,4 @@
 import { Box, Text } from "@chakra-ui/react";
-import React from "react";
 import { Handle, NodeProps, Position } from "reactflow";
 import CustomHandle from "./CustomHandle";
 

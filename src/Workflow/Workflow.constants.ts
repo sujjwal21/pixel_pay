@@ -1,4 +1,6 @@
 import { Edge, Node } from "reactflow";
+import CustomResizerNode from './CustomResizerNode';
+
 
 export const initialEdges: Edge[] = [];
 
@@ -6,21 +8,21 @@ export const initialNodes: Node[] = [
   {
     id: "1",
     position: { x: 100, y: 100 },
-    data: { amount: 10 },
+    data: { amount: 100 },
     type: "paymentInit",
   },
   {
     id: "2",
-    data: { currency: "$", country: "United States", countryCode: "US" },
+    data: { currency: "₹", country: "India", countryCode: "IN" },
     position: { x: 300, y: 20 },
     type: "paymentCountry",
   },
   {
     id: "3",
-    data: { currency: "£", country: "England", countryCode: "GB" },
+    data: { currency: "₨", country: "Nepal", countryCode: "NP" },
     position: { x: 300, y: 200 },
     type: "paymentCountry",
-  },
+  },  
   {
     id: "4",
     data: { name: "Google Pay", code: "Gp" },
@@ -45,4 +47,5 @@ export const initialNodes: Node[] = [
     position: { x: 275, y: -100 },
     type: "paymentProviderSelect",
   },
+  
 ];

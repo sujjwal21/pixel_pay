@@ -1,5 +1,4 @@
 import { IconButton } from "@chakra-ui/react";
-import React from "react";
 import { X } from "react-bootstrap-icons";
 import {
   BezierEdge,
